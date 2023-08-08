@@ -1,0 +1,25 @@
+title: UNDP AccLab Toolkit Micro-site template
+description: >
+  Welcome to the UNDP AccLab Toolkit Micro-site project! This README provides a quick guide on how to set up and customize your Toolkit site.
+
+header_background_color: "#FF5733"
+
+header_info_text: "This is a prototype. Please help the UNDP Accelerator Labs improve it by <a href='https://forms.office.com/e/iLZf9V6aDZ' target='_blank'>participating in user testing</a>."
+logo_image_path: "/public/imgs/UNDP_accelerator_labs_logo_vertical_color_RGB.png"
+
+
+# Footer Configuration
+footer_organization: "UNDP Accelerator Labs"
+about_url: "https://www.undp.org/acceleratorlabs"
+fraud_report_url: "https://www.undp.org/accountability/audit/investigations"
+scam_alert_url: "https://www.undp.org/scam-alert"
+terms_of_use_url: "https://www.undp.org/copyright-terms-use"
+current_year: 2023
+copyright_holder: "United Nations Development Programme"
+linkedin_url: "https://www.linkedin.com/company/undp-accelerator-labs"
+twitter_url: "https://twitter.com/UNDPAccLabs"
+instagram_url: "https://www.instagram.com/acceleratorlabs/"
+
+# Image URLs
+logo_image_url: "/public/imgs/logo.png"
+partners_image_url: "/public/imgs/UNDP_Acc_Labs_Patners_2022_CorePartners_Horizontal_RGB.png"

@@ -10,14 +10,14 @@
   <nav aria-label="Main" id="site-nav" class="site-nav">
     <div class="sidebar">
       <ul class="menu-list">
-        {% assign ordered_pages = site.pages | sort: 'nav_order' %}
+        {% assign ordered_pages = site.pages | sort: 'menu' %}
         {% for page in ordered_pages %}
           {% if page.menu %}
             <li class="menu-item{% if page.has_children %} collapsed{% endif %}">
               <a class="menu-link" href="#">{{ page.title }}</a>
               <i class="menu-icon fa fa-chevron-left"></i>
               
-              {% assign submenu_pages = site.pages | where: 'menu_parent', page.menu | sort: 'submenu_order' %}
+              {% assign submenu_pages = site.pages | where: 'menu_parent', page.menu | sort: 'nav_order' %}
               {% if submenu_pages.size > 0 %}
                 <ul class="submenu-list">
                   {% for submenu_page in submenu_pages %}

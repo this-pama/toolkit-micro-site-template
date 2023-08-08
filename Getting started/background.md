@@ -1,13 +1,13 @@
 ---
-title: How to use the toolkit
+title: Background and purpose 
 parent: Getting Started
 layout: default
 
 menu_parent: 1
-nav_order: 3
+nav_order: 1
 
 ---
 
-## How to use this toolkit
+### Background and purpose 
 
 Content goes here.
