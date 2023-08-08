@@ -106,7 +106,7 @@ That's it! You're ready to create, customize, and deploy your Toolkit site. Have
 
 Follow these steps to create a new toolkit based on the UNDP AccLab Toolkit Micro-site template:
 
-1. Click on [Create new toolkit](https://github.com/UNDP-Accelerator-Labs/national_innovation_ecosystems_toolkit/generate).
+1. Click on [Create new toolkit](https://github.com/UNDP-Accelerator-Labs/toolkit-micro-site-template/generate).
 
 2. Provide a name for your new toolkit repository.
 
@@ -127,7 +127,7 @@ Follow these steps to set up the UNDP AccLab Toolkit Micro-site locally on your 
 1. **Clone the Repository**: Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Then, run the following command to clone the repository to your local machine:
 
     ```markdown
-    git clone https://github.com/UNDP-Accelerator-Labs/national_innovation_ecosystems_toolkit.git
+    git clone https://github.com/UNDP-Accelerator-Labs/toolkit-micro-site-template.git
     ```
 
 2. ### Navigate to the Repository
@@ -135,7 +135,7 @@ Follow these steps to set up the UNDP AccLab Toolkit Micro-site locally on your 
 Change your current directory to the cloned repository:
 
 ```markdown
-cd national_innovation_ecosystems_toolkit
+cd toolkit-micro-site-template
 ```
 
 3. Install Dependencies
