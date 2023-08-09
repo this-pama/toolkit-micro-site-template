@@ -1,6 +1,6 @@
-# Getting Started with the UNDP AccLab Toolkit Micro-site
+# Getting Started with the UNDP Accelerator Labs Toolkit Micro-site
 
-Welcome to the UNDP AccLab Toolkit Micro-site project! This README provides a quick guide on how to set up and customize your Toolkit site.
+Welcome to the UNDP Accelerator Labs Toolkit Micro-site project! This README provides a quick guide on how to set up and customize your Toolkit site.
 
 ## Table of Contents
 
@@ -104,15 +104,15 @@ That's it! You're ready to create, customize, and deploy your Toolkit site. Have
 
 ## Create a New Toolkit
 
-Follow these steps to create a new toolkit based on the UNDP AccLab Toolkit Micro-site template:
+You can fork this repository to create a copy of it for your use. Follow these steps to create a new toolkit based on the UNDP Accelerator Labs Toolkit Micro-site template:
 
-1. Click on [Create new toolkit](https://github.com/UNDP-Accelerator-Labs/toolkit-micro-site-template/generate).
+1. Click on [Create New Toolkit](https://github.com/UNDP-Accelerator-Labs/toolkit-micro-site-template/fork).
 
 2. Provide a name for your new toolkit repository.
 
 3. Choose to include all branches (main and gh-pages) to ensure your micro-site is ready to deploy on GitHub Pages.
 
-4. Click the "Create repository from template" button to generate your new toolkit repository.
+4. Click the "Create fork" button to generate your new toolkit repository.
 
 5. Once the repository is created, you are ready to start adding content to your micro-site or you can clone it to your local machine using Git:
 
@@ -122,7 +122,7 @@ Follow these steps to create a new toolkit based on the UNDP AccLab Toolkit Micr
 
 ## Set Up the Toolkit Micro-site Locally
 
-Follow these steps to set up the UNDP AccLab Toolkit Micro-site locally on your computer for development and customization:
+Follow these steps to set up the UNDP Accelerator Labs Toolkit Micro-site locally on your computer for development and customization:
 
 1. **Clone the Repository**: Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Then, run the following command to clone the repository to your local machine:
 
