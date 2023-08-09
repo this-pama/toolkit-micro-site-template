@@ -4,6 +4,7 @@ sidebar_styles:
   submenu_hover_color: "#7253ed"
   submenu_color: "green"
   menu_icon_color: "#aaa"
+  
 header_styles:
   background_color: "#005687"
   text_color: "#fff"
