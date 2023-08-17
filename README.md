@@ -56,7 +56,7 @@ To organize your content effectively, it's recommended to create a new folder fo
 ```
 
 
-### Creating a New Topic
+### Creating a New Topic with sub-topics
 
 1. Create a new folder in the root directory with a meaningful name for your topic. For example, `policy-making`.
 
@@ -91,6 +91,20 @@ nav_order: 1
 2. Add your content using Markdown syntax to each subtopic file.
 By following this structure, you can easily organize and create a hierarchy of topics and subtopics in your Toolkit micro-site.
 
+
+### Creating a Main Topic (Without Sub-Topics)
+
+To generate a main topic without any sub-topics, follow these steps. For instance, if you intend to establish a topic named "Contributors" as a menu list item, directing to a contributors page, you can achieve this by creating a file named `Team.md`.
+
+In the created file, it's crucial to set the `has_children` property to `false`. This ensures that topics lacking sub-topics are correctly displayed in the menu list.
+
+### Customizing the Contributors Page
+
+The current version of this template incorporates both a contributor profile page and a contributors list page. If you wish to integrate these pages into your website, you must update the `_data/contributors.yml` file with a list of your project's contributors.
+
+To access an individual contributor's profile page, you can link to the respective profile using the ID from your `_data/contributors.yml` file. For example: `[Jane Doe]({{ site.baseurl }}/contributors/Jane-doe.html)` directs to Jane Doe's profile based on the YAML file.
+
+If you decide not to display the contributors page in your side menu, you can exclude it by adding `Team.md` to the `excludes` list in your `_config.yml` file.
 
 
 ## Customizing Configuration

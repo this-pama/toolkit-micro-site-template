@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/footer.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/custom.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/profile.css?v=" | append: site.github.build_revision | relative_url }}">
+
     <title>{{ site.data.site_info.title }}</title>
 
     <!-- OGP tags -->
@@ -27,7 +29,6 @@
     <meta property="og:image:width" content="400" />
     <!-- <meta property="og:image:height" content="300" /> -->
     <meta property="og:image:alt" content="UNDP Accelerator Labs Logo" />
-
   </head>
   <body>
     {% include components/sidebar.html %}
@@ -48,18 +49,12 @@
         This site is open source. Improve this page.
       </div>
       {% endif %}
-
       
     </div>
 
     {% include components/footer.html %}
-  <!-- </div> -->
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
-    <script type='javascript'>
-      console.log('{{site}}')
-      console.log('{{site.github}}')
-    </script>
   </body>
 </html>
