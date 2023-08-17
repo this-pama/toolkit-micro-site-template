@@ -5,6 +5,11 @@ has_children: true
 
 ---
 
+### Contributors
+Focal point: [Jane Doe]({{ site.baseurl }}/contributors/Jane-doe.html)
+
+
+
 # Markdown Basics
 
 ## Introduction
