@@ -111,6 +111,7 @@ If you decide not to display the contributors page in your side menu, you can ex
 
 You can customize the site's configuration by editing the `_data/site_info.yml` and `_data/site_styles.yml` files. These files contain settings for the site's title, background color, and more.
 
+It is also important to update the value of `baseurl` in `_config.yml` file. 
 For navigation and menu customization, update the nav.html and sidebar.html partials.
 
 That's it! You're ready to create, customize, and deploy your Toolkit site. Have fun documenting and sharing your content!
