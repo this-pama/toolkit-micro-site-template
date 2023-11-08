@@ -1,0 +1,34 @@
+name: GoatCounter Monitoring Configuration Request
+description: Request assistance for configuring GoatCounter monitoring for your project.
+title: '[GOATCOUNTER CONFIGURATION]: '
+labels: ['goatcounter configuration']
+assignees: ['this-pama']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out for assistance with GoatCounter monitoring configuration! Please provide the following details.
+  - type: textarea
+    id: project-details
+    attributes:
+      label: Can you provide some details about your project?
+      description: Please provide some details about your project where the GoatCounter monitoring will be configured.
+      placeholder: Enter project details here.
+    validations:
+      required: true
+  - type: textarea
+    id: toolkit-url
+    attributes:
+      label: What is the URL of the current toolkit repo or website?
+      description: Please provide the URL of the current toolkit repo or website that you want to configure the GoatCounter monitoring for.
+      placeholder: Enter the URL here.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Any additional information or requirements?
+      description: Please provide any additional information or specific requirements for the GoatCounter monitoring configuration.
+      placeholder: Enter any additional information here.
+    validations:
+      required: false

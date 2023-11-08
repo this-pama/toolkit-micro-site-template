@@ -1,0 +1,42 @@
+name: Custom Domain Configuration Request
+description: Request assistance for configuring a custom domain for your project.
+title: '[DOMAIN CONFIGURATION]: '
+labels: ['domain configuration']
+assignees: ['this-pama']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out for assistance with domain configuration! Please provide the following details.
+  - type: textarea
+    id: domain-name
+    attributes:
+      label: What is the domain name you want to configure?
+      description: Please provide the domain name you want to configure for your project.
+      placeholder: Enter your domain name here.
+    validations:
+      required: true
+  - type: textarea
+    id: project-details
+    attributes:
+      label: Can you provide some details about your project?
+      description: Please provide some details about your project where the domain will be configured.
+      placeholder: Enter project details here.
+    validations:
+      required: true
+  - type: textarea
+    id: toolkit-url
+    attributes:
+      label: What is the URL of the current toolkit repo or website?
+      description: Please provide the URL of the current toolkit repo or website that you want to configure the domain for.
+      placeholder: Enter the URL here.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Any additional information or requirements?
+      description: Please provide any additional information or specific requirements for the domain configuration.
+      placeholder: Enter any additional information here.
+    validations:
+      required: false

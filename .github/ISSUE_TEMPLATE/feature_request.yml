@@ -1,0 +1,42 @@
+name: Toolkit Request
+description: Submit a request for a new toolkit for your project.
+title: '[NEW TOOLKIT]: '
+labels: ['new toolkit']
+assignees: ['this-pama']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate your effort in filling out this toolkit request form!
+  - type: textarea
+    id: toolkit-purpose
+    attributes:
+      label: Purpose of the Toolkit
+      description: Please describe the purpose of the toolkit and its application in the project.
+      placeholder: Briefly describe the purpose of the toolkit.
+    validations:
+      required: true
+  - type: textarea
+    id: toolkit-name
+    attributes:
+      label: Toolkit Name
+      description: 
+      placeholder: Enter the name of the toolkit.
+    validations:
+      required: true
+  - type: textarea
+    id: organization-info
+    attributes:
+      label: Organization/Department Details
+      description: 
+      placeholder: Please provide details of your organization, bureau, unit, and region.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      description: Please add any other relevant details or resources to support the toolkit request.
+      placeholder: Add any other relevant details here.
+    validations:
+      required: false
