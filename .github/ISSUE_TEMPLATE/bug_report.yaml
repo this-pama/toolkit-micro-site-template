@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: '[Bug]: '
 labels: ['bug', 'triage']
-assignees: ['this-pama']
+assignees: ['this-pama', 'myjyby']
 body:
   - type: markdown
     attributes:

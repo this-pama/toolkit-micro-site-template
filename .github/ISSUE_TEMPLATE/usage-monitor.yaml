@@ -2,7 +2,7 @@ name: GoatCounter Monitoring Configuration Request
 description: Request assistance for configuring GoatCounter monitoring for your project.
 title: '[GOATCOUNTER CONFIGURATION]: '
 labels: ['goatcounter configuration']
-assignees: ['this-pama']
+assignees: ['this-pama', 'myjyby']
 body:
   - type: markdown
     attributes:

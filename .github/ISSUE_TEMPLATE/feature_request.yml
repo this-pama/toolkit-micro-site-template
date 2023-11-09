@@ -2,7 +2,7 @@ name: Toolkit Request
 description: Submit a request for a new toolkit for your project.
 title: '[NEW TOOLKIT]: '
 labels: ['new toolkit']
-assignees: ['this-pama']
+assignees: ['this-pama', 'myjyby']
 body:
   - type: markdown
     attributes:

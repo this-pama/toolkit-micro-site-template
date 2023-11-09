@@ -2,7 +2,7 @@ name: Custom Domain Configuration Request
 description: Request assistance for configuring a custom domain for your project.
 title: '[DOMAIN CONFIGURATION]: '
 labels: ['domain configuration']
-assignees: ['this-pama']
+assignees: ['this-pama', 'myjyby']
 body:
   - type: markdown
     attributes:
