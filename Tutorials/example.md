@@ -5,7 +5,7 @@
 3. Enter a name for your file with the `.md` extension (for example, `example.md`).
 4. In the text editor, you can start writing your content in Markdown format. You can refer to this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for help with the syntax.
 
-![Write into text editor](./assets/content1.png)
+![Write into text editor](/assets/content1.png)
 
 5. As you write, you can click on the `Preview changes` tab at the top of the text editor to see how your Markdown will render.
 
