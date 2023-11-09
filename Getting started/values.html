@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/toolkit-micro-site-template/public/imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/toolkit-micro-site-template/public/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/toolkit-micro-site-template/public/imgs/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/toolkit-micro-site-template/public/imgs/favicon.ico">
+    <!-- <link rel="manifest" href="../public/imgs/site.webmanifest"> -->
+
+    <link rel="stylesheet" href="/toolkit-micro-site-template/assets/css/style.css?v=">
+    <link rel="stylesheet" href="/toolkit-micro-site-template/assets/css/footer.css?v=">
+    <link rel="stylesheet" href="/toolkit-micro-site-template/assets/css/custom.css?v=">
+    <link rel="stylesheet" href="/toolkit-micro-site-template/assets/css/profile.css?v=">
+
+    <title>UNDP AccLab Toolkit Micro-site template</title>
+
+    <!-- OGP tags -->
+    <meta property="og:title" content="UNDP AccLab Toolkit Micro-site template">
+    <meta property="og:description" content="Welcome to the UNDP AccLab Toolkit Micro-site project! This README provides a quick guide on how to set up and customize your Toolkit site.
+">
+    
+    <meta property="og:image" content="https://undp-accelerator-labs.github.io/national_innovation_ecosystems_toolkit/public/imgs/UNDP_accelerator_labs_logo_vertical_color_RGB.png" />
+    <meta property="og:image:secure_url" content="https://undp-accelerator-labs.github.io/national_innovation_ecosystems_toolkit/public/imgs/UNDP_accelerator_labs_logo_vertical_color_RGB.png" />
+    <!-- <meta property="og:image:type" content="image/png" /> -->
+    <meta property="og:image:width" content="400" />
+    <!-- <meta property="og:image:height" content="300" /> -->
+    <meta property="og:image:alt" content="UNDP Accelerator Labs Logo" />
+  </head>
+  <body>
+    <div class="side-bar" style="background-color: #fafafa; ">
+  <div class="site-header">
+    <a href="/toolkit-micro-site-template/" class="site-title lh-tight">
+      <img src="/toolkit-micro-site-template/public/imgs/UNDP_accelerator_labs_logo_vertical_color_RGB.png" width="150" alt="undp_accelerator_labs_logo">
+    </a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+  </div>
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+    <div class="sidebar">
+      <ul class="menu-list">
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li class="menu-item">
+              <a class="menu-link" href=" # ">Getting Started</a>
+              
+              <i class="menu-icon fa fa-chevron-left"></i>
+              
+              
+              
+              
+                <ul class="submenu-list">
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Getting%20started/background.html">Background and purpose</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Getting%20started/values.html">Values and attitude</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Getting%20started/how-to-use-the-toolkit.html">How to use the toolkit</a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+            <li class="menu-item">
+              <a class="menu-link" href=" # ">Second topic</a>
+              
+              <i class="menu-icon fa fa-chevron-left"></i>
+              
+              
+              
+              
+                <ul class="submenu-list">
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Second%20Topic/value.html">Value of toolkit</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Second%20Topic/Sub%20Topic.html">A sample of a new topic</a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+            <li class="menu-item">
+              <a class="menu-link" href=" # ">Third topic</a>
+              
+              <i class="menu-icon fa fa-chevron-left"></i>
+              
+              
+              
+              
+                <ul class="submenu-list">
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Third%20topic/third%20value.html">Third value</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a class="submenu-link" href="/toolkit-micro-site-template/Third%20topic/Third%20sub%20topic.html">A new sub topic for third menu</a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+            <li class="menu-item">
+              <a class="menu-link" href=" /toolkit-micro-site-template/Team.html ">Contributors</a>
+              
+              
+              
+              
+              
+            </li>
+          
+        
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    // Add click event listeners to menu items
+    var menuItems = document.querySelectorAll('.sidebar .menu-item');
+    menuItems.forEach(function(menuItem) {
+      menuItem.addEventListener('click', function() {
+        this.classList.toggle('collapsed');
+        this.classList.toggle('expanded');
+      });
+    });
+  </script>
+</div>
+
+
+    <div class="header" style="background-color: #005687; color: #fff;">
+    <header>
+        <a style="color: #fff !important;" href="/toolkit-micro-site-template/">UNDP AccLab Toolkit Micro-site template</a>
+    </header>
+</div>
+
+
+    <div class="info-section">
+    <span class="info-icon">i</span>
+    <span class="info-text"><p>This is a prototype. Please help the UNDP Accelerator Labs improve it by <a href="https://forms.office.com/e/iLZf9V6aDZ" target="_blank">participating in user testing</a>.</p>
+</span>
+</div>
+
+
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+  
+    <li class="breadcrumb-nav-list-item"><a href="/toolkit-micro-site-template/">Getting Started</a></li>
+  <li class="breadcrumb-nav-list-item"><span>Values and attitude</span></li>
+  </ol>
+</nav>
+
+
+      <h2 id="values-and-attitude">Values and attitude</h2>
+
+<p>Content goes here.</p>
+
+
+      
+      
+    </div>
+
+    <footer style="padding-top:5em;">
+  <hr />
+  <div class="footer-row">
+    <div class="footer-column">
+      <img src="/toolkit-micro-site-template/public/imgs/logo.png"  width="150" alt="undp accelerator labs logo">
+      <p>UNDP Accelerator Labs</p>
+    </div>
+    <div class="footer-column">
+      <h4>Links</h4>
+      <ul>
+        <li><a target="_blank" href="https://www.undp.org/acceleratorlabs">About Us</a></li>
+        <li><a target="_blank" href="https://www.undp.org/accountability/audit/investigations">Report fraud, abuse, misconduct</a></li>
+        <li><a target="_blank" href="https://www.undp.org/scam-alert">Scam Alert</a></li>
+        <li><a target="_blank" href="https://www.undp.org/copyright-terms-use">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <img src="/toolkit-micro-site-template/public/imgs/UNDP_Acc_Labs_Patners_2022_CorePartners_Horizontal_RGB.png"  alt="undp accelerator Partnerslogo">
+    </div>
+  </div>
+  <div class="footer-row">
+    <div class="footer-column">
+      <p>&copy; 2023 United Nations Development Programme</p>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-media-links">
+        <li><a target="_blank" href="https://www.linkedin.com/company/undp-accelerator-labs"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/UNDPAccLabs"><i class="fa fa-twitter"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/acceleratorlabs/"><i class="fa fa-instagram"></i></a></li>
+      </div>
+    </div>
+    <div class="footer-column"></div>
+  </div>
+</footer>
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
